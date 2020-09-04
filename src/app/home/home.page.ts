@@ -40,19 +40,19 @@ export class HomePage {
       img.src = dataUrl;
       result.appendChild(img);
 
-      // var link = document.createElement('img')
-      // link.src = dataUrl
+      var link = document.createElement('img')
+      link.src = dataUrl
       
-      // var WinPrint = window.open(
-      //   "",
-      //   "",
-      //   "left=0,top=0,width=800,height=900,toolbar=0,scrollbars=0,status=0"
-      // );
+      var WinPrint = window.open(
+        "",
+        "",
+        "left=0,top=0,width=800,height=900,toolbar=0,scrollbars=0,status=0"
+      );
     
-      // WinPrint.document.write(link.outerHTML);
-      // WinPrint.document.close();
-      // WinPrint.focus();
-      // WinPrint.print();
+      WinPrint.document.write(link.outerHTML);
+      WinPrint.document.close();
+      WinPrint.focus();
+      WinPrint.print();
     })
   }
 }
