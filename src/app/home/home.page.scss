@@ -23,3 +23,9 @@
 #container a {
   text-decoration: none;
 }
+
+@media print and (width: 5.83in) and (height: 8.27in){
+  @page{
+    margin: 1in;
+  }
+}
